@@ -12,6 +12,10 @@ package co.org.pratice;
 		static WebDriver driver;
 		//Without taking Login button Xpath using Roboclass function
 			public static void main(String[] args) throws AWTException, InterruptedException {
+				
+				System.out.println("This is Practice1 Class File for Robot class Please Check....");
+				
+				
 				System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shajahan\\workspace\\Robotclass\\Driver\\chromedriver.exe");
 				driver=new ChromeDriver();
 				//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
